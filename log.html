@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="The Admin Panel Of Hstk Digital" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./CSS/log.css" />
+    <script src="./JS/log.js" defer></script>
+    <title>HSTK Admin Panel</title>
+  </head>
+  <body onload="autoEverything()">
+    <div class="container d-flex justify-content-center">
+      <div class="col-sm-4">
+        <div class="row" id="log-main">
+          <div class="card">
+            <div
+              class="card-header text-capitalize fw-bolder h2"
+              id="card-head"
+            >
+              LOG IN
+            </div>
+            <div class="card-body">
+              <div class="form-control text-center">
+                <label class="form-control text-uppercase space-everywhere text-left no-border">Email</label>
+                <input type="email" id="email-int" class="form-control text-left space-everywhere" />
+                <label class="form-control text-uppercase space-everywhere text-left no-border">Password</label>
+                <input type="password" id="password-int" class="text-left form-control" />
+                <br>
+                <button onclick="check()" class="btn btn-success text-uppercase space-everywhere" id="login">Log In</button>
+              </div>
+            </div>
+            <div class="form-control" id="error-form">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="flex-shrink-0 py-4 bg-dark text-white-50 m-115-done">
+        <div class="container text-center">
+          <small>Copyright &copy; HSTK DIGITAL 2022</small>
+        </div>
+      </footer>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+body {
+    background: hsla(217, 100%, 50%, 1);
+
+    background: linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(217, 100%, 50%, 1) 0%, hsla(186, 100%, 69%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#0061FF", endColorstr="#60EFFF", GradientType=1);
+    background-repeat: no-repeat;
+}
+
+#log-main {
+    margin-top: 100px;
+}
+
+#card-head {
+    margin-top: 20px;
+    font-family: 'Arvo', serif;
+    text-align: center;
+}
+
+.space-everywhere {
+    margin-bottom: 20px;
+}
+
+#login {
+    padding-left: 35px;
+    padding-right: 35px;
+    background: hsla(197, 100%, 63%, 1);
+
+    background: linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+
+    background: -moz-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+
+    background: -webkit-linear-gradient(90deg, hsla(197, 100%, 63%, 1) 0%, hsla(294, 100%, 55%, 1) 100%);
+
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#40C9FF", endColorstr="#E81CFF", GradientType=1);
+
+    border-style: none;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.no-border {
+    border-style: none;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.m-115-done{
+    margin-top: 115px;
+}
