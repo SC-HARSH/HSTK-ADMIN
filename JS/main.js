@@ -127,7 +127,7 @@ window.onload(emailShow());
 
 function emailShow() {
   console.log(window.location);
-  if(window.location.href=="https://sc-harsh.github.io/HSTK-ADMIN/" || window.location.href=="https://sc-harsh.github.io/HSTK-ADMIN/index.html"){
+  if(window.location.href=="https://sc-harsh.github.io/HSTK-ADMIN/" || window.location.href=="https://sc-harsh.github.io/HSTK-ADMIN"){
      window.location = "https://sc-harsh.github.io/HSTK-ADMIN/index.html"
   }
   if (window.location.href == "https://sc-harsh.github.io/HSTK-ADMIN/index.html") {
