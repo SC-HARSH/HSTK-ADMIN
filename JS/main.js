@@ -144,7 +144,7 @@ function emailShow() {
       });
   }
   else{
-    window.location = "/index.html"
+    window.location = "https://sc-harsh.github.io/HSTK-ADMIN/index.html"
   }
 }
 
