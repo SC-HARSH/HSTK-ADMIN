@@ -126,7 +126,6 @@ function deleteHtml() {
 window.onload(emailShow());
 
 function emailShow() {
-  window.location = "/index.html"
   console.log(window.location);
   if (window.location.href == "https://sc-harsh.github.io/HSTK-ADMIN/index.html") {
     document.getElementById("outputEmail").innerHTML = "";
@@ -143,6 +142,9 @@ function emailShow() {
           console.log(email);
         });
       });
+  }
+  else{
+    window.location = "/index.html"
   }
 }
 
