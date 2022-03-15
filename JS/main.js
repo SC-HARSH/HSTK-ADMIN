@@ -126,6 +126,7 @@ function deleteHtml() {
 window.onload(emailShow());
 
 function emailShow() {
+  console.log(window.location);
   if (window.location.pathname == "/index.html") {
     document.getElementById("outputEmail").innerHTML = "";
     firebase
