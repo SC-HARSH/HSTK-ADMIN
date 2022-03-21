@@ -84,11 +84,9 @@ function uploadTimeData() {
     task
       .then((snapshot) => snapshot.ref.getDownloadURL())
       .then((url) => {
-        console.log(url);
         urlNameOfImage = url;
-      });
-    setTimeout(() => {
-      document.getElementById("codeOfTheCloth").value = "";
+        console.log(url);
+        document.getElementById("codeOfTheCloth").value = "";
       document.getElementById("descriptionOfTheCloth").value = "";
       document.getElementById("nameOfTheCloth").value = "";
       document.getElementById("fileUpload").value == "";
@@ -101,7 +99,8 @@ function uploadTimeData() {
       });
       console.log("Uploaded Something");
       alert("Data Saved To The Server");
-    }, 5000);
+      window.location="./edit.html"
+      });
   } else {
     console.log("Something Is Not Filled");
     window.alert("Something Is Not Filled");
