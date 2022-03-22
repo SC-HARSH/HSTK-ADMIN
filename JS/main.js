@@ -187,5 +187,6 @@ function deliveryDelete(keyOfTheButton) {
 function changeValue(){
   if (window.location.href == "https://sc-harsh.github.io/HSTK-ADMIN/delivery.html" || window.location.href=="https://sc-harsh.github.io/HSTK-ADMIN/delivery") {
     document.getElementById("changeWebsiteGroup").value = localStorage.getItem("Code")
+    console.log("Heyy")
   }
 }
