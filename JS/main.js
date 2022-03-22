@@ -1,3 +1,5 @@
+document.addEventListener('contextmenu', event => event.preventDefault());
+
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyBE9TzLvkTyM-EptQc3c2Ane2g8RL3-MVU",
