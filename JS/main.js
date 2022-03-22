@@ -27,6 +27,7 @@ function logCheck() {
           '<i class="fas fa-user me-2"></i>' + email;
         emailShow();
         deliveryShow();
+        changeValue();
       } else {
         window.location = "log.html";
       }
@@ -99,6 +100,7 @@ function uploadTimeData() {
       });
       console.log("Uploaded Something");
       alert("Data Saved To The Server");
+      localStorage.setItem("Code",document.getElementById("changeWebsiteGroup").value)
       window.location="./edit.html"
       });
   } else {
@@ -179,4 +181,11 @@ function deliveryDelete(keyOfTheButton) {
   console.log(keyOfTheButton)
   firebase.database().ref("DELIVERY/emailDelivery/"+keyOfTheButton).remove();
   document.getElementById(keyOfTheButton+"-tr").remove();
+}
+
+
+function changeValue(){
+  if (window.location.href == "https://sc-harsh.github.io/HSTK-ADMIN/delivery.html" || window.location.href=="https://sc-harsh.github.io/HSTK-ADMIN/delivery") {
+    document.getElementById("changeWebsiteGroup").value = localStorage.getItem("Code")
+  }
 }
